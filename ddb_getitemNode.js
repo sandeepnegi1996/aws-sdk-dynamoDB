@@ -41,6 +41,7 @@ ddb.getItem(params, function(err, data) {
     var unwrapped = attr.unwrap(jsonObj2);
     console.log(unwrapped.color);
     console.log(unwrapped.temperature);
+    console.log(unwrapped.DeviceId);
   }
 });
 
